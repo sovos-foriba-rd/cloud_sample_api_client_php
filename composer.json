@@ -1,0 +1,27 @@
+{
+  "name": "foriba/foribasamplephpapi",
+  "description": "Foriba efatura api..",
+  "keywords" : ["efatura", "earsiv","api", "foriba"],
+  "authors": [
+    {
+      "name": "Foriba R & D",
+      "email": "rd@foriba.com",
+      "homepage": "http://www.foriba.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bulut\\FITApi\\": "src/Bulut/FITApi/",
+      "Bulut\\InvoiceService\\": "src/Bulut/InvoiceService/",
+      "Bulut\\ArchiveService\\": "src/Bulut/ArchiveService/",
+      "Bulut\\eFaturaUBL\\": "src/Bulut/eFaturaUBL/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "MIT"
+}
